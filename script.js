@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   async function getBotResponse(userMessage) {
-    const apiKey = "AIzaSyBBkamTmaZCvF9N7EpK-_r-Vqpsm7OWa0A"; // Replace with your Gemini API key
+    const apiKey = "AIzaSyDnUlL_TTgrG3PCPz9snLmeyWtsb5c_Cas"; // Replace with your Gemini API key
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
     try {
